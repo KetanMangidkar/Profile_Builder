@@ -7,7 +7,7 @@
     margin: 1rem;
   }
 
-  > form > div {
+  > div > div {
     padding: 1rem;
     margin: 1rem;
     background-color: #2223;
@@ -59,4 +59,24 @@ button {
 }
 .word_of_wisdom {
   background-color: #c9cb;
+}
+
+.resultBox {
+  max-width: 50ch;
+  margin: 1rem;
+  margin-bottom: 10rem;
+  border-radius: 0;
+
+  > h2 {
+    border-radius: 0;
+    margin: 1rem;
+  }
+  > div {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #2223;
+    border-radius: 0;
+    backdrop-filter: blur(15px);
+    font-size: 20px;
+  }
 }
